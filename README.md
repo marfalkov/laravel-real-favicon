@@ -30,7 +30,8 @@ favicon generation using realfavicongenerator.net
 When do you need to generate favicons for a site? Probably when you are in the early stage of development and have the original favicon source file ready. Then later when you want to change the favicon. A laravel mix task is not an ideal solution for this purpose, so I decided to  take a different approach. This task is a perfect match for an npm script that you can use only when you need it, instead of polluting your `webpack.mix.js`.
 
 ## Usage
-1. ```console
+1.
+```console
 
 npm install --save-dev @marfalkov/laravel-real-favicon
 
@@ -40,7 +41,8 @@ npm install --save-dev @marfalkov/laravel-real-favicon
 
 3. Make sure you have an `app.blade.php` in `resources/views` If you wish to have your main layout elsewhere or name it other than `app.blade.php` you can change it in `resources/favicon/config/options.json`
 
-4. ```console
+4.
+```console
 
 npm run generate-favicon
 
@@ -51,6 +53,7 @@ npm run generate-favicon
 
 ## Issues
 [Github Issues](https://github.com/marfalkov/laravel-real-favicon/issues "Github Issues")
+
 
 ## Credits
 
@@ -63,11 +66,13 @@ npm run generate-favicon
 
 [gulp-real-favicon](https://www.npmjs.com/package/gulp-real-favicon "gulp-real-favicon")
 
+
 ## TODO's
 - clean up code
 - write tests
 - add git hooks
 - add release-it
+
 
 ## Development
 ```console
@@ -75,5 +80,6 @@ npm run generate-favicon
 npm install --ignore-scripts
 
 ```
+
 
 License: [MIT](https://opensource.org/licenses/MIT "The MIT License")
