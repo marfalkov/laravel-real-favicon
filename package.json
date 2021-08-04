@@ -1,0 +1,32 @@
+{
+  "name": "@marfalkov/laravel-real-favicon",
+  "version": "0.0.2-beta",
+  "description": "favicon generation for laravel projects using realfavicongenerator api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marfalkov/laravel-real-favicon.git"
+  },
+  "keywords": [
+    "laravel",
+    "favicon",
+    "real",
+    "automation",
+    "generator"
+  ],
+  "author": "marfalkov <marfalkov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marfalkov/laravel-real-favicon/issues"
+  },
+  "homepage": "https://github.com/marfalkov/laravel-real-favicon#readme",
+  "dependencies": {
+    "gulp-real-favicon": "^0.3.2",
+    "npm-add-script": "^1.1.0",
+    "shelljs": "^0.8.4"
+  }
+}
