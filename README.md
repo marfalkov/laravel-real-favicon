@@ -62,5 +62,14 @@ Enjoy your generated favicons!
 ## TODO's
 - clean up code
 - write test
+- add git hooks
+- add release-it
+
+## Development
+```console
+
+npm install --ignore-scripts
+
+```
 
 License: [MIT](https://opensource.org/licenses/MIT "The MIT License")
